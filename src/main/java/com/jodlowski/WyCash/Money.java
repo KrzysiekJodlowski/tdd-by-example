@@ -1,6 +1,6 @@
 package com.jodlowski.WyCash;
 
-abstract class Money {
+class Money {
     protected String currency;
     protected int amount;
 
@@ -8,8 +8,6 @@ abstract class Money {
         this.amount = amount;
         this.currency = currency;
     }
-
-    abstract Money times(int multiplier);
 
     static Money dollar(int amount) {
         return new Dollar(amount, "USD");
@@ -23,9 +21,17 @@ abstract class Money {
         return currency;
     }
 
+    Money times(int multiplier) {
+        return new Money(amount * multiplier, currency);
+    }
+
     public boolean equals(Object object) {
         Money money = (Money) object;
         return amount == money.amount
-                && getClass().equals(money.getClass());
+                && currency().equals(money.currency());
+    }
+
+    public String toString() {
+        return amount + " " + currency;
     }
 }

@@ -10,7 +10,7 @@ object comparison
 5 CHF * 2 = 10 CHF - checked
 Franc/Dollar duplication
 common comparison - checked
-common multiplication
+common multiplication - checked
 francs and dollars comparison - checked
 currency? - checked
 remove testFrancMultiplication()?
