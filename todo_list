@@ -1,6 +1,6 @@
 5 USD + 10 CHF = 10 USD when USD:CHF=2:1
 5 USD * 2 = 10 USD - checked	
-make "amount" private
+make "amount" private - checked
 side effects? - checked
 rounding amounts?
 equals() method - checked
