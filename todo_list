@@ -3,3 +3,7 @@
 make "amount" private
 side effects? - checked
 rounding amounts?
+equals() method - checked
+hashCode() method
+null comparison
+object comparison
