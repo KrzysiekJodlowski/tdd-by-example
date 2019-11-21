@@ -2,6 +2,8 @@ TODO
 
 5 USD + 10 CHF = 10 USD when USD:CHF=2:1
 5 USD + 5 USD = 10 USD
+Money object as a result of addition 5 USD + 5 USD
+Bank.reduce(Money) - checked
 rounding amounts?
 hashCode() method
 null comparison
