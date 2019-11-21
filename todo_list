@@ -1,16 +1,22 @@
+TODO
+
 5 USD + 10 CHF = 10 USD when USD:CHF=2:1
-5 USD * 2 = 10 USD - checked
-make "amount" private - checked
-side effects? - checked
+5 USD + 5 USD = 10 USD
 rounding amounts?
-equals() method - checked
 hashCode() method
 null comparison
 object comparison
-5 CHF * 2 = 10 CHF - checked
-Franc/Dollar duplication - checked
-common comparison - checked
-common multiplication - checked
-francs and dollars comparison - checked
-currency? - checked
-remove testFrancMultiplication()?
+
+DONE
+
+5 USD * 2 = 10 USD
+make "amount" private
+side effects?
+equals() method
+5 CHF * 2 = 10 CHF
+Franc/Dollar duplication
+common comparison
+common multiplication
+francs and dollars comparison
+currency?
+remove testFrancMultiplication()
