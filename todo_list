@@ -8,7 +8,7 @@ hashCode() method
 null comparison
 object comparison
 5 CHF * 2 = 10 CHF - checked
-Franc/Dollar duplication
+Franc/Dollar duplication - checked
 common comparison - checked
 common multiplication - checked
 francs and dollars comparison - checked
