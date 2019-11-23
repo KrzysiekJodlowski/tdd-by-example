@@ -1,9 +1,5 @@
 TODO
 
-5 USD + 10 CHF = 10 USD when USD:CHF=2:1
-Money object as a result of addition 5 USD + 5 USD
-Sum.plus() method
-Expression.times() method
 rounding amounts?
 hashCode() method
 null comparison
@@ -26,3 +22,7 @@ Bank.reduce(Money)
 5 USD + 5 USD = 10 USD
 reduce Money with conversion
 Reduce(Bank, String)
+Sum.plus() method
+Expression.times() method
+5 USD + 10 CHF = 10 USD when USD:CHF=2:1
+Money object as a result of addition 5 USD + 5 USD
