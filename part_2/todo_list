@@ -2,12 +2,13 @@ TODO
 
 call tearDown() method as last even when test crashes
 run many tests
-report broken tests
+catching and reporting errors of the setup() method
 
 DONE
 
 call test method
-call setUp() method as first
+call setup() method as first
 log chain in WasRun class
 call tearDown() method as last
 report collected results
+report broken tests
