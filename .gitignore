@@ -5,3 +5,4 @@ part_1/target/
 part_1/*.iml
 
 part_2/.idea/
+part_2/__pycache__/

@@ -1,0 +1,11 @@
+TODO
+
+call setUp() method as first
+call tearDown() method as last
+call tearDown() method as last even when test crashes
+run many tests
+report collected results
+
+DONE
+
+call test method
