@@ -1,3 +1,7 @@
+.idea/
+
 part_1/.idea/
 part_1/target/
 part_1/*.iml
+
+part_2/.idea/
