@@ -1,3 +1,3 @@
-.idea/
-target/
-*.iml
+part_1/.idea/
+part_1/target/
+part_1/*.iml

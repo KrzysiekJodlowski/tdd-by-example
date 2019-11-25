@@ -1,4 +1,4 @@
-package com.jodlowski.WyCash;
+package com.jodlowski;
 
 public interface Expression {
     Money reduce(Bank bank, String to);

@@ -1,4 +1,4 @@
-package com.jodlowski.WyCash;
+package com.jodlowski;
 
 import org.junit.Test;
 

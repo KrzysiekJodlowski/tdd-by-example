@@ -1,4 +1,4 @@
-package com.jodlowski.WyCash;
+package com.jodlowski;
 
 public class Sum implements Expression {
     Expression augend;

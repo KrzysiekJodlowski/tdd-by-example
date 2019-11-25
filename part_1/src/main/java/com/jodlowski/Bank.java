@@ -1,4 +1,4 @@
-package com.jodlowski.WyCash;
+package com.jodlowski;
 
 import java.util.HashMap;
 import java.util.Map;
