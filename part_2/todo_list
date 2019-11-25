@@ -1,8 +1,8 @@
 TODO
 
 call tearDown() method as last even when test crashes
-run many tests
 catching and reporting errors of the setup() method
+creating TestSuite object based on TestCase objects
 
 DONE
 
@@ -12,3 +12,4 @@ log chain in WasRun class
 call tearDown() method as last
 report collected results
 report broken tests
+run many tests
