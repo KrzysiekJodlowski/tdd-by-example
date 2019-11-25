@@ -1,6 +1,5 @@
 TODO
 
-call tearDown() method as last
 call tearDown() method as last even when test crashes
 run many tests
 report collected results
@@ -9,3 +8,5 @@ DONE
 
 call test method
 call setUp() method as first
+log chain in WasRun class
+call tearDown() method as last

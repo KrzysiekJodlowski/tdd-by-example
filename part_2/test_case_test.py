@@ -4,17 +4,10 @@ from was_run import WasRun
 
 class TestCaseTest(TestCase):
 
-    def setup(self):
-        self.test = WasRun("test_method")
-
-    def test_running(self):
-        self.test.run()
-        assert self.test.was_run
-
-    def test_setup(self):
-        self.test.run()
-        assert self.test.was_setup
+    def test_template_method(self):
+        test = WasRun("test_method")
+        test.run()
+        assert ("setUp testMethod tearDown " == test.log)
 
 
-TestCaseTest("test_running").run()
-TestCaseTest("test_setup").run()
+TestCaseTest("test_template_method").run()
